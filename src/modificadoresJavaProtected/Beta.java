@@ -1,0 +1,9 @@
+package modificadoresJavaProtected;
+
+class Beta{
+    void metodoAccesor() {
+        Alpha a = new Alpha();
+        a.soyPrivado = 10;      // ilegal
+        a.metodoPrivado();      // ilegal
+    }
+}
